@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Review</title>
+</head>
+<body>
+<form id="bookReview" action="#" method="post">
+    <fieldset id="Reader">
+        <legend>All About the Reader</legend>
+        <div class="formRow">
+            <label for="name">Name*</label>
+            <input name="readerName" id="name" type="text" placeholder="first and last name" required/>
+        </div>
+        <div class="formRow">
+            <label for="age">Age*</label>
+            <input name="readerAge" id="age" type="number" value="5" step="1" min="5" max="120" required/>
+        </div>
+        <div class="formRow">
+            <label for="date">Book bought from Book Nook on: </label>
+            <input name="boughtDate" id="date" type="date"/>
+        </div>
+        <div class="formRow">
+            <label for="email">Email</label>
+            <input name="readerEmail" id="email" type="email" placeholder="reader@example.com"/>
+        </div>
+
+    </fieldset>
+    <fieldset id="Book">
+        <legend>All About the Book</legend>
+        <div class="formRow">
+            <label for="title">Title*</label>
+            <input name="bookTitle" id="title" type="text" placeholder="book title" required/>
+        </div>
+        <div class = "formRow">
+            <label for="author">Author*</label>
+            <input name="bookAuthor" id="author" type="text" placeholder="author" required/>
+        </div>
+        <div class="formRow">
+            <label for="rating">Rating*</label>
+            0
+            <input name="bookRating" id="rating" type="range" value="3" min="0" max="5" required/>
+            5
+        </div>
+        <div class="formRow">
+            <label>Would you recommend?*</label>
+            <input name="recommend" id="yes" type="radio" value="yes" required/>
+            <label for="yes">Yes</label>
+            <input name="recommend" id="no" type="radio" value="no" required/>
+            <label for="no">No</label>
+        </div>
+        <div class="formRow">
+            <label for="explanation">Why or why not?</label>
+            <textarea name="recommendationExplanation" id="explanation"></textarea>
+        </div>
+        <div class="formRow">
+            <label for="summary">Summary of Book</label>
+            <textarea name="bookSummary" id="summary"></textarea>
+        </div>
+    </fieldset>
+    <div id="buttons">
+    <input value="Submit" type="submit"/>
+    <input value="Cancel" type="reset"/>
+    </div>
+</form>
+</body>
+</html>
