@@ -1,0 +1,13 @@
+
+body {
+    position: relative;
+    background: url("BookQuotes.png");
+    width: 100%;
+    align-content: center;
+}
+
+p {
+    font-family: "Quicksand", "Verdana", serif;
+    text-align: justify;
+    color: #2c1604;
+}
