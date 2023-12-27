@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Book Review</title>
+    <link href="3Header.css" rel="stylesheet">
 </head>
 <body>
+<header>
+    <div class="overlay">
+        <h1>The Book Nook</h1>
+        <h3>Bookstore and Curated Copies</h3>
+        <nav class="navbar">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="2FormPage.html">Book Review</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="2EventPage.html">Annual Event</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
 <form id="bookReview" action="#" method="post">
     <fieldset id="Reader">
         <legend>All About the Reader</legend>
@@ -33,7 +49,7 @@
             <label for="title">Title*</label>
             <input name="bookTitle" id="title" type="text" placeholder="book title" required/>
         </div>
-        <div class = "formRow">
+        <div class="formRow">
             <label for="author">Author*</label>
             <input name="bookAuthor" id="author" type="text" placeholder="author" required/>
         </div>
@@ -60,8 +76,8 @@
         </div>
     </fieldset>
     <div id="buttons">
-    <input value="Submit" type="submit"/>
-    <input value="Cancel" type="reset"/>
+        <input value="Submit" type="submit"/>
+        <input value="Cancel" type="reset"/>
     </div>
 </form>
 </body>
