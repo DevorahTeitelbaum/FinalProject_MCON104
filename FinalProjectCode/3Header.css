@@ -50,6 +50,12 @@ nav.navbar {
         color: darkolivegreen;
     }
 
+}
+
+nav.navbar li {
     list-style-type: none;
-    color: white;
+}
+
+nav.navbar li a {
+    color:white;
 }
