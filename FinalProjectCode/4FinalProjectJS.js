@@ -1,35 +1,44 @@
 //this is the JS file for the final project
 
-/* Execute the function to run and display the countdown clock */
+/* Execute the function to run and display the time and countdown clocks */
 runClock();
 setInterval("runClock()", 1000);
+
+runCountdown();
+setInterval("runCountdown()", 1000);
 
 /* Function to create and run the countdown clock */
 function runClock() {
 
 
     /* Store the current date and time */
-    var currentDay = new Date();
+    let currentDay = new Date();
 
-    var dateStr = currentDay.toLocaleDateString();
-    var timeStr = currentDay.toLocaleTimeString();
+    let dateStr = currentDay.toLocaleDateString();
+    let timeStr = currentDay.toLocaleTimeString();
 
     /* Display the current date and time */
     document.getElementById("dateNow").innerHTML =
         dateStr + "<br />" + timeStr;
+}
 
-    /* Calculate the days until January 1st */
-    var newYear = new Date("April 23, 2024");
-    var nextYear = currentDay.getFullYear() + 1;
+function runCountdown() {
+
+        /* Store the current date and time */
+    let currentDay = new Date();
+
+    /* Calculate the days until January 1st*/
+    let newYear = new Date("April 23, 2024");
+    let nextYear = currentDay.getFullYear() + 1;
     newYear.setFullYear(nextYear);
-    var daysLeft = (newYear - currentDay) / (1000 * 60 * 60 * 24)
+    let daysLeft = (newYear - currentDay) / (1000 * 60 * 60 * 24)
 
     /* Calculate the hours left in the current day */
-    var hrsLeft = (daysLeft - Math.floor(daysLeft)) * 24;
+    let hrsLeft = (daysLeft - Math.floor(daysLeft)) * 24;
 
-    /* Calculate the minutes ans seonds left in the current hour */
-    var minsLeft = (hrsLeft - Math.floor(hrsLeft)) * 60;
-    var secsLeft = (minsLeft - Math.floor(minsLeft)) * 60;
+    /* Calculate the minutes and seconds left in the current hour */
+    let minsLeft = (hrsLeft - Math.floor(hrsLeft)) * 60;
+    let secsLeft = (minsLeft - Math.floor(minsLeft)) * 60;
 
     /* Display the time left until New Year's Eve */
     document.getElementById("days").textContent = Math.floor(daysLeft);
