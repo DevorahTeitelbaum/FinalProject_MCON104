@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+body > div {
+    margin: 5%;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 2px black, 0px 0px 4px black, -1px 1px 8px white,
+    1px -1px 8px white, -1px 1px 12px white, 1px -1px 12px white;
+    text-align: center;
+}
+legend {
+    background-color: rgb(213, 240, 220);
+    color:black;
+    box-shadow: 0px 5px 5px #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    outline-color: black;
+    padding: 1%;
+    border-radius: 5%;
+}
+fieldset {
+    background-color: rgb(192, 219, 203);
+    border-radius: 5%;
+    margin: 1% 7% 1% 7%;
+}
+
+fieldset > div {
+    padding: 1%
+}
+/* Form Button Styles */
+div#buttons {
+    text-align:center;
+    width: 100%;
+}
+input[type='submit'], input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+    background-color: rgb(192, 219, 203);
+}
+
+
+/* Validation Styles */
+input:focus, select:focus, textarea:focus {
+    background-color:rgb(220, 255, 220);
+}
+input#name:focus:valid,
+input#author:focus:valid,
+input#title:focus:valid,
+input#email:focus:valid,
+input#explanation:focus:valid,
+input#summary:focus:valid{
+    background: rgb(220,255,220);
+}
+input#name:focus:invalid,
+input#author:focus:invalid,
+input#title:focus:invalid,
+input#email:focus:invalid,
+input#explanation:focus:invalid,
+input#summary:focus:invalid {
+    background: rgb(255,232,233);
+}
