@@ -58,4 +58,13 @@ nav.navbar li {
 
 nav.navbar li a {
     color:white;
+    text-decoration: none;
+}
+
+div #dateNow {
+    width: 100%;
+    line-height: 1em;
+    font-size: 1em;
+    font-family: segment14, sans-serif;
+    margin: 2em;
 }
