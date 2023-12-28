@@ -1,19 +1,63 @@
+body{
+    background-color: black;
+    /*background-image: linear-gradient(rgba(9, 77, 53, 0.42) 10%, rgba(178, 241, 188, 0.41) 100%);*/
+}
+div#explanation {
+   /*background-image: linear-gradient(rgba(9, 77, 53, 0.42) 10%, rgba(178, 241, 188, 0.41) 100%);*/
+    background-color: rgb(197, 224, 206);
+    color:black;
+    box-shadow: 0px 5px 5px #ffffff;
+    text-shadow: 1px 1px 1px #ffffff;
+    padding: 10%;
+    margin: 5% 5% 0 5%;
+    text-align: center;
+    border-radius: 10% 10% 0 0;
+
+}
+
+div#table {
+    background-color: rgb(197, 224, 206);
+    margin: 0 5% 5% 5%;
+    border-radius: 0 0 10% 10%;
+
+}
+div#table > div{
+    text-align: center;
+    padding: 5%;
+}
+/*Background of table:*/
+table.schedule {
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    padding: 10%;
+    margin: 0 10% 10% 10%;
+    border-collapse: collapse;
+}
+
 /* Formatting the table */
 th, td {
-    border-collapse: collapse;
-    border: 1px solid palegreen;
+    border: 5px solid rgb(197, 224, 206);
     text-align: center;
+
+}
+/* Target headers in the first column*/
+table th:first-of-type {
+    border-right-width: 10px;
 }
 
 /* Set all header values to green background with white words */
 th {
-    color: white;
-    background-color: darkgreen;
+    background-color: black;
+    color: rgba(206, 241, 209, 0.85);
+    font-size: large;
+    font-weight: bold;
+    height: 80px;
 }
 
 td {
-    color: darkgreen;
-    background-color: palegreen;
+    color: black;
 }
 
 
@@ -21,10 +65,10 @@ td {
 
 /* Set the times column to the header row color */
 #firstCol {
-    width: 15%;
+    width: 10%;
 }
 
 /* Set size of the schedule column */
 #daysCol {
-    width: 10%;
+    width: 5%;
 }
