@@ -15,23 +15,6 @@ p {
     margin: 5rem;
 }
 
-/* Time Clock Styles */
-
-div#dateNow {
-    display: block;
-    position: absolute;
-    top: 35px;
-    left: 10px;
-    background-color: transparent;
-    border: hidden;
-    color: rgba(255, 192, 82, 0.8);
-    width: 140px;
-    font-size: 0.6em;
-    line-height: 1.1em;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-weight: normal;
-}
-
 /* Styles for the Countdown Clock */
 
 div#countdown {
@@ -68,7 +51,7 @@ div#countdown div span {
 div.clock {
     background: url("World.png");
     padding: 3rem;
-    margin: 15rem 5rem 5rem 5rem;
+    margin: 5rem;
     border-style: inset;
     border-radius: 13px;
     border-color: #1a1d20;

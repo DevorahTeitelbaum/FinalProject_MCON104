@@ -61,10 +61,20 @@ nav.navbar li a {
     text-decoration: none;
 }
 
-div #dateNow {
-    width: 100%;
-    line-height: 1em;
-    font-size: 1em;
-    font-family: segment14, sans-serif;
-    margin: 2em;
+
+/* Time Clock Styles */
+
+div#dateNow {
+    display: block;
+    position: absolute;
+    top: 4.5rem;
+    left: 4.5rem;
+    background-color: transparent;
+    border: hidden;
+    color: rgba(19, 54, 6, 0.8);
+    width: 140px;
+    font-size: 1.25em;
+    line-height: 1.1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: normal;
 }
