@@ -19,7 +19,7 @@ function runClock() {
         dateStr + "<br />" + timeStr;
 
     /* Calculate the days until January 1st */
-    var newYear = new Date("January 1, 2021");
+    var newYear = new Date("April 23, 2024");
     var nextYear = currentDay.getFullYear() + 1;
     newYear.setFullYear(nextYear);
     var daysLeft = (newYear - currentDay) / (1000 * 60 * 60 * 24)
