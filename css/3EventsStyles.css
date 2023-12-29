@@ -4,12 +4,13 @@ body {
     background-size: 100%;
     background: black;
 }
-
+/*
 body#menuBody {
     position: relative;
     background-size: 100%;
     background: linear-gradient(135deg, rgba(178, 241, 188, 0.41) 10%, rgba(9, 77, 53, 0.42) 100%);
-}
+
+}*/
 
 p {
     font-family: "Quicksand", "Verdana", serif;
@@ -20,16 +21,16 @@ p {
     border-radius: 20%;
     padding: 5rem;
 }
-
-p#menu {
+/*
+p.menu {
     font-family: "Quicksand", "Verdana", serif;
     text-align: justify;
-    /*color: #2c1604;*/
+    /*color: #2c1604;
     margin: 0 5rem 5rem 5rem;
     background-color: rgba(255, 255, 255, 0.37);
     border-radius: 20%;
     padding: 5rem;
-}
+}*/
 
 h2#menuTitle {
     font-family: "Quicksand", "Verdana", serif;
