@@ -15,6 +15,16 @@ p {
     padding: 5rem;
 }
 
+h2#menuTitle {
+    font-family: "Quicksand", "Verdana", serif;
+    text-align: center;
+    color: #143f02;
+    margin: 0 5rem 5rem 5rem;
+    text-shadow: 1px 1px 1px #ffffff;
+    border-radius: 20%;
+    padding: 5rem;
+}
+
 
 /* Styles for the Countdown Clock */
 
