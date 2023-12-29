@@ -32,9 +32,10 @@ div#buttons {
 }
 input[type='submit'], input[type='reset'] {
     font-size: 1.2em;
-    padding: 5px;
-    margin: 15px;
+    padding: 10px;
+    margin: 20px;
     background-color: rgb(192, 219, 203);
+    border-radius: 20px;
 }
 
 

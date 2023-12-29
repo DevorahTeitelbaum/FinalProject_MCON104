@@ -4,16 +4,21 @@ body {
     /*background-image: url("Tree.png");
     background-repeat: no-repeat;*/
     background-size: 100%;
-    /*background-image: linear-gradient(135deg, rgba(178, 241, 188, 0.41) 10%, rgb(255, 255, 255) 100%);*/
-    background: mintcream;
+    /*background-image: linear-gradient(135deg, rgba(178, 241, 188, 0.41) 10%, rgb(255, 255, 255) 100%);
+    background: mintcream; */
+    background: black;
 }
 
 p {
     font-family: "Quicksand", "Verdana", serif;
     text-align: justify;
-    color: #2c1604;
+    /*color: #2c1604;*/
     margin: 5rem;
+    background-color: rgb(192, 219, 203);
+    border-radius: 20%;
+    padding: 5rem;
 }
+
 
 /* Styles for the Countdown Clock */
 
@@ -59,7 +64,18 @@ div.clock {
 
 }
 
+div.clock h1 {
+    text-shadow: 5px 5px 5px black;
+    color: rgb(0, 0, 0, 70);
+}
+
 h2 {
     text-align: center;
     font-size: 3rem;
+}
+
+span {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem;
 }
