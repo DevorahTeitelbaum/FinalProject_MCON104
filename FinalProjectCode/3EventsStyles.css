@@ -13,7 +13,7 @@ p {
     font-family: "Quicksand", "Verdana", serif;
     text-align: justify;
     /*color: #2c1604;*/
-    margin: 5rem;
+    margin: 0 5rem 5rem 5rem;
     background-color: rgb(192, 219, 203);
     border-radius: 20%;
     padding: 5rem;
@@ -55,7 +55,7 @@ div#countdown div span {
 
 div.clock {
     background: url("World.png");
-    padding: 3rem;
+    padding: 3rem 3rem 1rem 3rem;
     margin: 5rem;
     border-style: inset;
     border-radius: 13px;
