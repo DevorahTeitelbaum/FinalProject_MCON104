@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: url('Logo.png');
+    background: url('/images/Logo.png');
     text-align: center;
     width: 100%;
     height: auto;
