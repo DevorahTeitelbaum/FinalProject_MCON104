@@ -1,11 +1,7 @@
 
 body {
     position: relative;
-    /*background-image: url("Tree.png");
-    background-repeat: no-repeat;*/
     background-size: 100%;
-    /*background-image: linear-gradient(135deg, rgba(178, 241, 188, 0.41) 10%, rgb(255, 255, 255) 100%);
-    background: mintcream; */
     background: black;
 }
 
@@ -41,10 +37,8 @@ div#countdown div {
     font-size: 3em;
     font-family: segment14, sans-serif;
     color: white;
-    margin: 0px 10px;
+    margin: 0 10px;
     padding: 3rem;
-    color: white;
-    text-align: center;
     text-shadow: 0px 0px 2px black, 0px 0px 4px black, -1px 1px 8px white,
     1px -1px 8px white, -1px 1px 12px white, 1px -1px 12px white;
 }
