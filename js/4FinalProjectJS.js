@@ -28,10 +28,10 @@ function runCountdown() {
     let currentDay = new Date();
 
     /* Calculate the days until January 1st*/
-    let newYear = new Date("April 23, 2024");
-    let nextYear = currentDay.getFullYear() + 1;
-    newYear.setFullYear(nextYear);
-    let daysLeft = (newYear - currentDay) / (1000 * 60 * 60 * 24)
+    let bookDay = new Date("April 23, 2024");
+    let nextYear = currentDay.getFullYear();
+    bookDay.setFullYear(nextYear);
+    let daysLeft = (bookDay - currentDay) / (1000 * 60 * 60 * 24)
 
     /* Calculate the hours left in the current day */
     let hrsLeft = (daysLeft - Math.floor(daysLeft)) * 24;
